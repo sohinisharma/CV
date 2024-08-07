@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(177, 240, 221);
+}
+
+.home-container,
+.hobbies-container,
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+h1 {
+    color: rgb(3, 151, 114);
+}
+
+hr {
+    border-top: 4px dotted grey;
+    width: 60px;
+    margin-bottom: 30px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+table{
+    margin: auto;
+    text-align: left;
+}
+
+th,tr,td{
+    padding: 5px;
+}
+
+th{
+    text-align: center;
+}
+
+.table-td{
+    padding-left: 30px;
+}
+
+.hobbies-container p{
+    margin: 5px;
+}
+
+.hobbies-container span{
+    margin: 20px;
+}
